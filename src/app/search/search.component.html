@@ -1,0 +1,13 @@
+
+<div class="form">
+  <i class="fa fa-search"></i>
+  <form class="form">
+
+  <input type="text" class="form-control form-input" id="search-text" name="searchText"
+         aria-describedby="search-text" [(ngModel)]="searchText"
+         (ngModelChange)="onTextChange()"
+         placeholder="Search name or category..." autofocus>
+
+    <span class="left-pan"><i class="fa fa-microphone"></i></span>
+  </form>
+</div>
